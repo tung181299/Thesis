@@ -11,7 +11,7 @@ const OrdersRouter = require('./routes/orders');
 const CartsRouter = require('./routes/carts');
 
 // mongoose.connect('mongodb+srv://thanhdat:1111@cluster0.l8yez.mongodb.net/ShoesApp', {
-mongoose.connect('mongodb+srv://tung:tung@shoesapp.2rrvg.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:tung@cluster0.2rrvg.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
