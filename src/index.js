@@ -9,8 +9,6 @@ const ProductsRouter = require('./routes/products');
 const AuthsRouter = require('./routes/auths');
 const OrdersRouter = require('./routes/orders');
 const CartsRouter = require('./routes/carts');
-
-// mongoose.connect('mongodb+srv://thanhdat:1111@cluster0.l8yez.mongodb.net/ShoesApp', {
 mongoose.connect('mongodb+srv://admin:tung@cluster0.2rrvg.mongodb.net/t-shoes', {
     useNewUrlParser: true,
     useUnifiedTopology: true
